@@ -9,12 +9,14 @@ function App() {
 
   return (
   <BrowserRouter>
+
     <Routes>
       <Route path="/" element= { <Home /> } /> 
       <Route path="/About" element= { <About/> } />
       <Route path="/Contact" element= { <Contact/> } />
       <Route path="*" element= { <NotFound/> } />
     </Routes>
+
   </BrowserRouter>
   )
 }
